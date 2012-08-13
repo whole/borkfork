@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Website", "borkfork\Website\Website.fsproj", "{5FDCBB1A-EAA0-4253-B313-020DCE0C94B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "borkfork\Web\Web.csproj", "{27F2364C-F865-4CEA-9E6D-53D0DAF977C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{E8E7D448-3CF7-4A78-9853-C40D3C3C648F}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\nuget.exe = .nuget\nuget.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FDCBB1A-EAA0-4253-B313-020DCE0C94B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FDCBB1A-EAA0-4253-B313-020DCE0C94B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FDCBB1A-EAA0-4253-B313-020DCE0C94B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FDCBB1A-EAA0-4253-B313-020DCE0C94B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27F2364C-F865-4CEA-9E6D-53D0DAF977C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F2364C-F865-4CEA-9E6D-53D0DAF977C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F2364C-F865-4CEA-9E6D-53D0DAF977C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F2364C-F865-4CEA-9E6D-53D0DAF977C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
