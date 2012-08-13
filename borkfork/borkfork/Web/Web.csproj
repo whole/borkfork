@@ -38,8 +38,10 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Content Include="*.aspx" />
+    <Content Include="pipeIco.png" />
     <Content Include="Scripts\*.js" />
     <Content Include="Content\**\*.*" />
+    <Content Include="StyleSheet1.css" />
     <Content Include="Themes\**\*.*" />
     <Content Include="Views\**\*.*" />
     <Content Include="*.asax" />
