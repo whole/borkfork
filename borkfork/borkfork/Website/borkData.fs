@@ -17,11 +17,11 @@ module Connections  =
 
     // You can use Server Explorer to build your ConnectionString.Data Source=IRON;Initial Catalog=borkdorkfork;Integrated Security=True
 
-    type  internal dbSchema = Microsoft.FSharp.Data.TypeProviders.SqlDataConnection<ConnectionString = @"Server=af476bb2-2d3b-4b79-9638-a0a5014b9055.sqlserver.sequelizer.com;Database=dbaf476bb22d3b4b799638a0a5014b9055;User ID=qknwbmiwlbhvlgpf;Password=sTjyM74CuYf7x3UjTPokTtVjgtVgjhqxjMuiECsNDcFnxvCGrhgVbzA878rtkWsm;">
-    let internal db = dbSchema.GetDataContext()
+    type dbSchema = Microsoft.FSharp.Data.TypeProviders.SqlDataConnection<ConnectionString = @"Server=af476bb2-2d3b-4b79-9638-a0a5014b9055.sqlserver.sequelizer.com;Database=dbaf476bb22d3b4b799638a0a5014b9055;User ID=qknwbmiwlbhvlgpf;Password=sTjyM74CuYf7x3UjTPokTtVjgtVgjhqxjMuiECsNDcFnxvCGrhgVbzA878rtkWsm;">
+    let db = dbSchema.GetDataContext()
 
     // catching category_id and category_link from dataBase
-    let internal category = seq {
+    let category = seq {
         for r in db.CATEGORY do
         yield (r.Id, r.Link)
         } 
