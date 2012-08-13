@@ -4,9 +4,13 @@ open IntelliFactory.Html
 open IntelliFactory.WebSharper
 open IntelliFactory.WebSharper.Sitelets
 
+open StoneMiner
+
 type Action =
     | Home
     | About
+
+
 
 module Skin =
     open System.Web
@@ -55,6 +59,23 @@ module Site =
                 Links ctx
             ]
 
+                
+    let JobsPage = 
+        Skin.WithTemplate "Jobs" <| fun ctx ->
+            
+                  [  
+                      let items = FilterJobs.filterItems()
+                      for i in items -> 
+                        Div [Class "job"] -< 
+                        [ 
+                         A [Class "title"]       -< [HRef i.[1]] -< [ Text i.[0]] 
+                         P [Class "posted top"]  -< [ Text i.[4] ]
+                         P [Class "location"]    -< [ Text i.[3] ]
+                         P [Class "employer"]    -< [ Text i.[2] ]
+                         ]
+                    ]
+                        
+     
     let AboutPage =
         Skin.WithTemplate "AboutPage" <| fun ctx ->
             [
@@ -63,8 +84,9 @@ module Site =
             ]
 
     let Main =
+        pullData.FlowControl.updateDb();
         Sitelet.Sum [
-            Sitelet.Content "/" Home HomePage
+            Sitelet.Content "/" Home JobsPage
             Sitelet.Content "/About" About AboutPage
         ]
 
