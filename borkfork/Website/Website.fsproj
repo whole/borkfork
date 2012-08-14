@@ -46,6 +46,9 @@
     <Compile Include="Site.fs" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="FSharp.Core">
+      <HintPath>..\lib\FSharp.Core.dll</HintPath>
+    </Reference>
     <Reference Include="FSharp.Data.TypeProviders">
       <HintPath>bin\Debug\FSharp.Data.TypeProviders.DLL</HintPath>
     </Reference>
