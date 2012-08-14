@@ -1,0 +1,271 @@
+﻿ div.job {
+    border-bottom: 1px solid #E9E9E9;
+    border-right: 1px solid transparent;
+    clear: both;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    padding: 10px;
+    position: relative;
+    width: 639px;
+}
+
+
+  	.body{
+		background-image:url(Patterns_20110304_Flower-pattern.jpg);
+	}
+    .spa-shell-head, .spa-shell-head-logo, .spa-shell-head-acct,
+    .spa-shell-head-search, .spa-shell-main, .spa-shell-main-nav,
+    .spa-shell-main-content, .spa-shell-foot, .spa-shell-chat,
+    .spa-shell-
+ {
+      position : absolute;
+    }
+    .spa-shell-head {
+      top    : 0;
+      left   : 0;
+      right  : 0;
+      height : 40px;
+    }
+      .spa-shell-head-logo {
+        top    : 4px;
+        left   : 4px;
+        height : 32px;
+        width  : 128px;
+        background : orange;
+		border-radius: 8px;
+      }
+	  .spa-shell-head-jobs {
+      background: none repeat scroll 0 0 pink;
+    border-radius: 34px  34px 8px 8px ;
+    bottom: 15px;
+    height: 53;
+    margin-left: 184px;
+    position: static;
+    top: 9px;
+    width: 60%;
+          text-align: center;
+          color: #000000;
+      }
+      .spa-shell-head-acct {
+        top    : 4px;
+        right  : 0;
+        width  : 64px;
+        height : 32px;
+        background : green;
+		border-radius: 4px;
+      }
+      .spa-shell-head-search {
+        top      : 4px;
+        right    : 64px;
+        width    : 248px;
+        height   : 32px;
+        background : blue;
+		border-radius: 4px;
+      }
+    .spa-shell-main {
+      top    : 40px;
+      left   : 0;
+      bottom : 40px;
+      right  : 0;
+	  height : 700;
+    }
+    .spa-shell-main-content,
+    .spa-shell-main-nav {
+      top    : 0;
+    }
+    .spa-shell-main-nav {
+      width  : 250px;
+      background : #eee;
+	  border-top-left-radius: 30px;
+	  border-bottom-left-radius: 30px;
+	  
+    }
+      .spa-x-closed .spa-shell-main-nav {
+        width  : 0;
+      }
+
+    .spa-shell-main-content {
+	left  : 250px;
+	right : 0;
+	background-color: #000;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+    }
+      .spa-x-closed .spa-shell-main-content {
+        left : 0;
+      }
+    .spa-shell-foot {
+      bottom : 0;
+      left   : 0;
+      right  : 0;
+      height : 40px;
+    }
+    .spa-shell-chat {
+	border-radius: 5px;
+    background: none repeat scroll 0 0 red;
+    bottom: -240px;
+    height: 15px;
+    right: 0;
+    width: 300px;
+    }
+    .spa-shell-modal {
+	 border-radius: 8px 8px 8px 8px;
+     vertical-align: middle;
+    background: none repeat scroll 0 0 #FFFFFF;
+    display: table;
+    left: 35%;
+    margin-left: -200px;
+    margin-top: 18px;
+    padding: 0;
+    position: relative;
+    bottom: 20px;
+
+    width: 50%;
+    z-index: 1;
+    }
+	
+	#jobslist {
+    margin-bottom: 50px;
+}
+
+
+#jobslist > .jobsheader > #sortmenu {
+    display: block;
+    float: right;
+    font-size: 11px;
+}
+#jobslist > .jobsheader > #sortmenu > select {
+    margin: 0;
+    padding: 1px;
+    width: 150px;
+}
+#jobslist input[type="submit"] {
+    margin: 5px 0 0 -1px;
+}
+#jobslist img.spinner {
+    display: none;
+    height: 14px;
+    width: 14px;
+}
+#jobslist .jobsheader, .sidebar h3, h3.solid {
+    background-color: #EEEEEE;
+    clear: both;
+    margin: 0 0 15px;
+    padding: 4px 5px 5px 15px;
+}
+#jobslist h3, .sidebar h3, h3.solid {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 100%;
+}
+#jobslist .jobsheader, #jobslist .jobsheader > h3 {
+    margin: 0;
+}
+#jobslist .jobsheader > h3 {
+    display: inline-block;
+    max-width: 420px;
+}
+#jobslist .jobsheader a.everywhere {
+    display: inline-block;
+    margin-right: 10px;
+    white-space: nowrap;
+}
+
+div.job > p.tags {
+    font-size: 0.9em;
+}
+div.job a.title {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    height: 19px;
+    margin-right: 5px;
+    white-space: nowrap;
+}
+
+p.posted.top {
+    display: block;
+    float: right;
+    font-size: 92%;
+    margin: 0;
+    padding-left: 12px;
+    text-align: right;
+}
+div.job > p {
+    clear: left;
+    margin: 0 0 0 22px;
+    padding: 2px 0;
+}
+div.job p.employer {
+    color: #444444;
+    display: inline-block;
+    font-weight: bold;
+    height: 16px;
+    margin-left: 4px;
+    white-space: nowrap;
+}
+
+div.job p.employer {
+    color: #444444;
+    display: inline-block;
+    font-weight: bold;
+    height: 16px;
+    margin-left: 4px;
+    white-space: nowrap;
+}
+div.job p.employer.abbrev {
+    max-width: 160px;
+}
+div.job span.joeltestscore {
+    background-color: #14B732;
+    border-radius: 4px 4px 4px 4px;
+    color: #FFFFFF;
+    font-family: Tahoma,Arial,Sans-Serif;
+    font-size: 9px;
+    font-weight: bold;
+    margin-left: 3px;
+    padding: 1px 4px 2px;
+    position: relative;
+    top: -1px;
+}
+div.job > p.posted {
+    display: none;
+}
+div.job > p.posted.top {
+    display: block;
+    float: right;
+    font-size: 92%;
+    margin: 0;
+    padding-left: 12px;
+    text-align: right;
+}
+div.job > .location {
+    font-size: 92%;
+    font-style: italic;
+}
+div.job > .description {
+    clear: right;
+    color: #888888;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+div.job img.application-indicator {
+    left: 10px;
+    position: absolute;
+    top: 28px;
+}
+#listheader {
+    font-weight: bold;
+    padding: 0 0 5px;
+}
+
+ a.fav-toggle {
+    background: url("../Img/fav-star-off.png") no-repeat scroll 0 1px transparent;
+    display: block;
+    float: left;
+    height: 16px;
+    margin-right: 5px;
+    width: 15px;
+}

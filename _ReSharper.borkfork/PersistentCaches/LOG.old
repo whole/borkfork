@@ -1,5 +1,5 @@
-2012/08/14-11:28:20.765 1e5c Recovering log #3
-2012/08/14-11:28:20.766 1e5c Level-0 table #5: started
-2012/08/14-11:28:20.863 1e5c Level-0 table #5: 36176 bytes OK
-2012/08/14-11:28:20.953 1e5c Delete type=0 #3
-2012/08/14-11:28:20.954 1e5c Delete type=3 #2
+2012/08/14-12:05:22.365 2c Recovering log #6
+2012/08/14-12:05:22.365 2c Level-0 table #8: started
+2012/08/14-12:05:22.394 2c Level-0 table #8: 6486 bytes OK
+2012/08/14-12:05:22.473 2c Delete type=0 #6
+2012/08/14-12:05:22.474 2c Delete type=3 #4
